@@ -1,0 +1,17 @@
+.footer-react{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-react{
+    display: flex;
+    align-items: center;
+}
+
+.nav-react{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 10px;
+}

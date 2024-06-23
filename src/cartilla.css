@@ -1,0 +1,59 @@
+.contenedor1{
+    margin: 10px 200px ;
+    border: 5px solid;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+}
+
+.imagen{
+    margin: 40px 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.datos{
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 50px 50px;
+    background-image: url("fondo.jpg");
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenido del div */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    font-family: "Jost", sans-serif;
+}
+
+.nombre{
+    margin: 20px;
+    color: white;
+    font-size: 10px;
+}
+.oficio{
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+    color: rgb(187, 17, 221);
+    
+}
+.descripcion{
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+}
+.redes {
+    text-align: center; /* Centra los elementos del div */
+}
+.redes a {
+    display: inline-block; /* Muestra los elementos en línea */
+    margin: 0 10px; /* Margen horizontal entre los elementos */
+}
+.redes a i {
+    font-size: 30px; /* Tamaño del icono */
+    color: white; /* Color del icono */
+}   
+
+img{
+    width: 320px;
+    border-radius: 50%;
+}
